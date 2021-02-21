@@ -128,4 +128,6 @@ const calculate = (n1, operator, n2) => {
     updateCalculatorState(key, calculator, resultString, displayedNum)
     updateVisualState(key, calculator)
   })
+
+  const calculator = document.querySelector('.calculator');
   
