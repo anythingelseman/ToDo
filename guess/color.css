@@ -1,0 +1,32 @@
+.colourButton {
+    border-radius: 50%;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-style: none;
+    margin: 15px;
+}
+
+#buttonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#colourValue, #answer, #reset {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#resetButton {
+    padding: 10px;
+    background: none;
+    border: 1px solid #000;
+    margin: 10px;
+}
